@@ -1,5 +1,3 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 
 /**
@@ -8,13 +6,12 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-{
-	char l;
-
-	for (l = 'a'; l <= 'z'; l++)
 	{
-	putchar(l);
+	int digit;
+ 	for (digit = 9; digit >= 0; digit--)
+	{
+	putchar('0' + digit);
 	}
 	putchar('\n');
-	return (0);
+	return(0);
 }
