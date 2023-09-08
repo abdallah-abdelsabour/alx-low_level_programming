@@ -1,7 +1,9 @@
 # include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
-
+/*
+ *retun if number is negative or postive
+ * */
 int main(void)
 {
 	int n;
