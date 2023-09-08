@@ -10,10 +10,7 @@
 int main(void)
 {
 	char l;
-	int n ;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
 	for (l = 'a';l < 'z'; l++ )
 	{
 	putchar(l);
