@@ -9,9 +9,11 @@ int main(void)
 {
 	int l;
 
-	for (l = 0; l <= 9; l++)
+	for (l = 0; l <= 10; l++)
 	{
-	printf('%d',l);
+        char k = '0' + l;
+	
+	putchar(k);
 	}
 	putchar('\n');
 	return (0);
