@@ -6,7 +6,8 @@
  * Return: Always 0 (Success)
  */
 int main() {
- 	for (int digit = 0; digit <= 9; digit++)
+	int digit;
+ 	for (digit = 0; digit <= 9; digit++)
 	{
 	putchar('0' + digit);
 	}
