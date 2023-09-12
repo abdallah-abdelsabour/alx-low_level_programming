@@ -13,7 +13,7 @@ void _jack_bauer()
 		for (m = 0; m < 60;m++ )
 		{
 			_putchar(h);
-			_piutchar(':');
+			_putchar(':');
 			_putchar(m);
 			_putchar('\n');
 		}
