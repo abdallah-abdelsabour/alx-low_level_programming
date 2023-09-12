@@ -3,7 +3,7 @@
  * print_alphabet print alpha from a -> z
  * Return: void value
  */
-int _islower(char c)
+int _islower(int c)
 {	
 
 	for (l = 'a'; l <= 'z'; l++)
