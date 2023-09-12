@@ -3,7 +3,7 @@
  * print_alphabet print alpha from a -> z
  * Return: void value
  */
-int _islower(int c)
+int _isalpha(int c)
 {	
 	int f;
 	
