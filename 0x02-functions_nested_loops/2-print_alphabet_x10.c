@@ -4,17 +4,18 @@
  * Return: void value
  */
 void print_alphabet_x10(void)
-{	
-	int l = 10;
-	while (l != 0)
+{
+int l = 10;
+
+while (l != 0)
 	{
-		char k;
-		for (k = 'a'; k <= 'z'; k++)
-		{
-		_putchar(k);
-		}
-		_putchar('\n');
-		l--;
+	char k;
+	for (k = 'a'; k <= 'z'; k++)
+	{
+	_putchar(k);
+	}
+	_putchar('\n');
+	l--;
 	}
 	return;
 
