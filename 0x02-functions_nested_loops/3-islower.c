@@ -5,7 +5,7 @@
  */
 int _islower(int c)
 {	
-
+	int l;
 	for (l = 'a'; l <= 'z'; l++)
 	{
 	if (c == l)
