@@ -3,7 +3,7 @@
  * print_alphabet print alpha from a -> z
  * Return: void value
  */
-void _jack_bauer(void c)
+void _jack_bauer()
 {	
 	int h;
 	
@@ -13,7 +13,7 @@ void _jack_bauer(void c)
 		for (m = 0; m < 60;m++ )
 		{
 			_putchar(h);
-			_ptchar(':');
+			_piutchar(':');
 			_putchar(m);
 			_putchar('\n');
 		}
