@@ -17,7 +17,7 @@ int _islower(int c)
 		{
 		if (c == l|| c == f)
 		{
-			return(1)
+			return(1);
 		}	
 		}
 
