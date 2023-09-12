@@ -4,7 +4,7 @@
  * print_alphabet print alpha from a -> z
  * Return: void value
  */
-void _jack_bauer()
+void jack_bauer()
 {	
 	int h;
 	
