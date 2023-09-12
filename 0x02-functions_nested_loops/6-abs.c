@@ -3,10 +3,12 @@
  * print_alphabet print alpha from a -> z
  * Return: void value
  */
-int print_sign(int n)
-{	
+int _abs(int n)
+{
 	if (n > 0)
-		return(1);
+	{
+		return(n);
+	}
 	if(n == 0)
 	{
 		return(0);
