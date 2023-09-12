@@ -3,7 +3,7 @@
  * main - Entry point
  * Return: Always 0 (success)
  */
-void print_alphabet((void)
+void print_alphabet(void)
 {	int l;
 
 	for (l = 'a'; l <= 'z';l++)
@@ -11,5 +11,6 @@ void print_alphabet((void)
 	_putchar(l);
 	}
 	_putchar('\n');
+	return;
 
 }
