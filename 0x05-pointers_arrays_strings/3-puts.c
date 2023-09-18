@@ -7,18 +7,12 @@
  *
  */
 
-int _strlen(char *s)
+void _puts(char *str)
 {
 	int l;
 
-	l = 0;
-	while (1)
+	while(*str && *str != '\0')
 	{
-		l++;
-		if (*(s + l) == '\0')
-		{
-			break;
-		}
+			putchar(*str++);
 	}
-	return (l);
 }
