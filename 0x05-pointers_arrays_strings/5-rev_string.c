@@ -27,8 +27,8 @@ void rev_string(char *s)
 	for (i = 0; i < (c / 2); i++)
 	{
 		aux = s[i];
-		s[i] = *a;
-		*a = aux;
+		s[i] = *(s+a);
+		*a = &aux;
 		a--;
 	}
 }
