@@ -8,13 +8,13 @@
  *
  */
 
-void print_array(char *str,int n)
+void print_array(int *a,int n)
 {
   int i;
   i = 0;
   while (n--)
   {
-    printf("%d, ",str[i]);
+    printf("%d, ",a[i]);
     i++;
   }
   putchar('\n');
