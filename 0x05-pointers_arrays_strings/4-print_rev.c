@@ -7,7 +7,7 @@
  *
  */
 
-void _puts(char *s)
+void print_rev(char *s)
 {
 	int last_char;
   last_char = 0;
