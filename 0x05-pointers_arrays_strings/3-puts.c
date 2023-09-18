@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * _strlen - return string length
- * @s: string want to return length
- * Return: int
+ * _strlen - putchar returns
+ * @str: pointer to the string
+ * Return: void
  *
  *
  */
@@ -10,7 +10,7 @@
 void _puts(char *str)
 {
 	int l;
- 
+	
 	l = 0;
 	while(str[l] != '\0')
 	{
