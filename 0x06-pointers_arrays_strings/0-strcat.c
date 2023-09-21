@@ -8,7 +8,7 @@
  *
  */
 
-char *_strcat(char *dest, char *src);
+char *_strcat(char *dest, char *src)
 {
 	int i,k;
 
@@ -21,10 +21,10 @@ char *_strcat(char *dest, char *src);
 	{
 		dest[i] = src[k];
 		k++;
-		l++;
+		i++;
 	}
-	l++;
-	dest[l] = '\0';
+	i++;
+	dest[i] = '\0';
 
 	return(dest);
 }
