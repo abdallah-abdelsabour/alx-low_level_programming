@@ -1,27 +1,23 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * reverse_array - putchar returns
- * @a: pointer to the string
- * @n: pointer to the string
- * Return: void
+ *string_toupper - changes all lowercase letters of a string to uppercase.
+ *@x: pointer to string.
  *
- *
+ *Return: pointer to uppercase string.
  */
-
-
-void reverse_array(int *a, int n);
+char *string_toupper(char *x)
 {
-	l = n - 1;
-	while (l >= 0)
+	int length;
+
+	length = 0;
+
+	while (x[length] != '\0')
 	{
-		if (l +1 != n)
+		if (x[length] >= 97 && x[length] <= 122)
 		{
-			printf(", ");
+			x[length] = x[length] - 32;
 		}
-		printf("%d",a[l]);
-		l++;
-
+		length++;
 	}
-	printf("\n");
+	return (x);
 }
-

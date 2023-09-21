@@ -1,27 +1,21 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * reverse_array - putchar returns
- * @a: pointer to the string
- * @n: pointer to the string
- * Return: void
+ *reverse_array - revereses an array.
+ *@a: pointer to array.
+ *@n: number of elements of an array.
  *
- *
+ *Return: void.
  */
-
-
-void reverse_array(int *a, int n);
+void reverse_array(int *a, int n)
 {
-	l = n - 1;
-	while (l >= 0)
+	int temp, counter;
+
+	n = n - 1;
+	counter = 0;
+	while (counter <= n)
 	{
-		if (l +1 != n)
-		{
-			printf(", ");
-		}
-		printf("%d",a[l]);
-		l++;
-
+		temp = a[counter];
+		a[counter++] = a[n];
+		a[n--] = temp;
 	}
-	printf("\n");
 }
-
