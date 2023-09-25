@@ -7,7 +7,7 @@
  * Return nothing
  */
 
-void _memset(char *s , char b , int n)
+char *_memset(char *s , char b ,unsigned int n)
 {
 	int i;
 	
@@ -15,6 +15,7 @@ void _memset(char *s , char b , int n)
 	{
 		s[i++] = b;
 	}
+	return(s);
 
 }
 
