@@ -13,7 +13,7 @@ void _memset(char *s , char b , int n)
 	
 	while ( n > 0)
 	{
-		s[i++] = b
+		s[i++] = b;
 	}
 
 }
