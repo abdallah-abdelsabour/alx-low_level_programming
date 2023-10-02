@@ -1,21 +1,13 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * _print_rev_recursion -print stri in reverse order
- * @s: string to print out
- * Return : void value
-*/
-
-
+ * _print_rev_recursion - Prints a string in reverse.
+ * @s: The string to be printed.
+ */
 void _print_rev_recursion(char *s)
 {
-  if (!*s)
-  {
-       return; /* nothing to*/
-  }
-  _print_rev_recursion(++s);
-  putchar(*s);
-}
-
-void main(){
-  _print_rev_recursion("123456789");
+	if (*s)
+	{
+		_print_rev_recursion(s + 1);
+		_putchar(*s);
+	}
 }
