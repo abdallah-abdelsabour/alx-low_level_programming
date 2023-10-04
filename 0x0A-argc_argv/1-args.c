@@ -1,12 +1,12 @@
 #include <stdio.h>
 /**
- * prgname -print program name
- *
- *
+ * main -print program name
+ * @argc: argument number
+ * @argv: argument array
  *
  */
 
  int main(int argc, char *argv[])
  {
- 	printf("%d\n",argc);
+ 	printf("%d\n",argc-1);
  }
